@@ -1,12 +1,13 @@
 '''
-Logic for fetching and asking vocab questions
+Logic for CLI Quiz Tool
 '''
 import json
 import random
 
-#1st: Reading Vocab Data and converting to python dict
-with open("vocab.json", "r") as file:
-    data = json.load(file)
+class Load_Data():
+#Reading Vocab Data and converting to python dict
+    with open("vocab.json", "r") as file:
+        data = json.load(file)
 
 #2nd: Choosing Random Noun and asking user for meaning
 categories = ["masc", "fem", "neut"]
