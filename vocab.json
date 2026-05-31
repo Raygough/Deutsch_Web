@@ -1,0 +1,8 @@
+{
+    "nouns": 
+    {"words": ["Der Hund", "Das Mädchen", "Die Mutter"],
+    "meanings": ["The Dog", "The Girl", "The Mother"]},
+    "verbs": 
+    {"words": ["Machen", "Kennen", "Gehen"],
+    "meanings": ["To Do", "To Know", "To Go"]}
+}
