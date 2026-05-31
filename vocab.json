@@ -1,8 +1,17 @@
 {
     "nouns": 
-    {"words": ["Der Hund", "Das Mädchen", "Die Mutter"],
-    "meanings": ["The Dog", "The Girl", "The Mother"]},
-    "verbs": 
-    {"words": ["Machen", "Kennen", "Gehen"],
-    "meanings": ["To Do", "To Know", "To Go"]}
+    {"masc": 
+    [{"word": "Der Hund", "meaning": "The Dog"},
+    {"word": "Der Mann", "meaning": "The Mann"},
+    {"word": "Der Apfel", "meaning": "The Apple"}],
+
+    "fem": 
+    [{"word": "Die Mutter", "meaning": "The Mother"},
+    {"word": "Die Frau", "meaning": "The Woman"},
+    {"word": "Die Musik", "meaning": "The Music"}], 
+    
+    "neut": 
+    [{"word": "Das Haus", "meaning": "The House"},
+    {"word": "Das Kind", "meaning": "The Child"},
+    {"word": "Das Museum ", "meaning": "The Mueseum"}]}
 }
