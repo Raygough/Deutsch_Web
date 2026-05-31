@@ -1,9 +1,14 @@
 {
     "nouns": 
     {"masc": 
-    [{"word": "Der Hund", "meaning": "The Dog"},
-    {"word": "Der Mann", "meaning": "The Mann"},
-    {"word": "Der Apfel", "meaning": "The Apple"}],
+    [{"word": "Der Hund", 
+    "meaning": "The Dog"},
+
+    {"word": "Der Mann", 
+    "meaning": "The Mann"},
+    
+    {"word": "Der Apfel", 
+    "meaning": "The Apple"}],
 
     "fem": 
     [{"word": "Die Mutter", "meaning": "The Mother"},
