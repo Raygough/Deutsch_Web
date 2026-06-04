@@ -52,7 +52,6 @@ class User_Quiz():
     def print_word(Rand_Word):
         print(f"QUESTION: What does \"{word}\" mean?")
 
-    def validate():
 
 
 user_input = input("ANSWER: ")
