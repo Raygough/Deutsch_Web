@@ -1,4 +1,6 @@
+import argparse
 from quiz import Word, Quiz, Session
+from quiz import valid_cat, valid_rounds
 
 '''
 Promgram Driver
@@ -11,9 +13,18 @@ def Main():
         Please type one of the following categories: nouns, verbs, adjectives
           ''')
 
-    user_cat = input("Enter your selection: ")
-    user_rounds = int(input("Enter the number of " \
-    "words you want to be tested on: "))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-c", "--category", type=str, help="category of word",
+                        choices=["nouns", "verbs", "adjectives"])
+    parser.add_argument("-r", "--rounds", type=int, help="number of questions")
+    parser.parse_args()
+
+
+
+
+    user_cat = valid_cat().lower()
+    user_rounds = valid_rounds()
+    
     quiz = Quiz()
     print("You can press \"x\" at any point to exit the session\n")
 
