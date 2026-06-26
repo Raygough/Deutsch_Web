@@ -4,63 +4,83 @@ Logic for CLI Quiz Tool
 import json
 import random
 
+def load_vocab() -> dict:
+        with open("vocab.json", "r") as file:
+            data = json.load(file)
+        return data
 
-class Vocabulary():
+class Word():
     '''
     Creates Vocab word + meaning from JSON
     '''
 
-    categories = ["masc", "fem", "neut"]
-
     def __init__(self, input):
         self.input = input
-        self.word
-        self.meaning
+        self.word = ""
+        self.meaning = ""
+        self.data = load_vocab()
 
-    def load_vocab() -> dict:
-        with open("vocab.json", "r") as file:
-            data = json.load(file)
-        return data
-    
-    def make_word_noun(self, data, categories) -> list[str]:
+    def make_word(self) -> list[str]:
+        categories = ["masc", "fem", "neut"]
+        
         if(self.input == "nouns"):
-            rand_gen = categories[random.randrange(0, len(categories))]
-            bound = len(data[self.input][rand_gen])
+            rand_gender = categories[random.randrange(0, len(categories))]
+            bound = len(self.data[self.input][rand_gender])
             word_idx = random.randrange(0, bound)
-
-            self.word = data[self.input][rand_gen][word_idx]["word"]
-            self.meaning = data[self.input][rand_gen][word_idx]["meaning"]
-            return [word, meaning, rand_gen, self.input]
+            self.word = self.data[self.input][rand_gender][word_idx]["word"]
+            self.meaning = self.data[self.input][rand_gender][word_idx]["meaning"]
+            return [self.word, self.meaning, rand_gender, self.input]
         
         elif(self.input == "verbs"):
-            rand_gen = categories[random.randrange(0, len(categories))]
-            bound = len(data[self.input][rand_gen])
+            bound = len(self.data[self.input])
             word_idx = random.randrange(0, bound)
-
-            word = data[self.input][rand_gen][word_idx]["word"]
-            meaning = data[self.input][rand_gen][word_idx]["meaning"]
-            return [word, meaning, rand_gen, self.input]
+            self.word = self.data[self.input][word_idx]["word"]
+            self.meaning = self.data[self.input][word_idx]["meaning"]
+            return [self.word, self.meaning, self.input]
         
         elif(self.input == "adjectives"):
-            rand_gen = categories[random.randrange(0, len(categories))]
-            bound = len(data[self.input][rand_gen])
+            bound = len(self.data[self.input])
             word_idx = random.randrange(0, bound)
-
-            word = data[self.input][rand_gen][word_idx]["word"]
-            meaning = data[self.input][rand_gen][word_idx]["meaning"]
-            return [word, meaning, rand_gen, self.input]
+            self.word = self.data[self.input][word_idx]["word"]
+            self.meaning = self.data[self.input][word_idx]["meaning"]
+            return [self.word, self.meaning, self.input]
         
 
-# class User_Quiz(Vocabulary):
-#     def print_word(Rand_Word):
-#         print(f"QUESTION: What does \"{word}\" mean?")
+class Quiz():
+    def __init__(self):
+        self.correct = 0
+        self.num_rounds = 0
 
-#     user_input = input("ANSWER: ")
+    def test(self, word, meaning):
+        print(f"QUESTION: What does \"{word}\" mean?")
+
+        user_input = input("ANSWER: ")
+
+        if (user_input == 'x'):
+            return False
+        elif(user_input == meaning):
+            print(f"RICHTIG! \"{word}\" means \"{meaning}\"\n")
+            self.correct += 1
+            self.num_rounds += 1
+            return True
+        else:
+            print(f"FALSCH! \"{word}\" means \"{meaning}\"\n")
+            self.num_rounds += 1
+            return True
 
 
-#     if(user_input == Vocabulary.meaning):
-#         print(f"RICHTIG! \"{word}\" means \"{meaning}\"")
-#     else:
-#         print(f"FALSCH! \"{word}\" means \"{meaning}\"")
+class Session():
+    def __init__(self,
+                 n_questions,
+                 correct):
+        self.n_questions = n_questions
+        self.correct = correct
+        self.accuracy =  self.correct / self.n_questions
 
 
+    def summary(self):
+        print(f"Out of {self.n_questions} questions, you got {self.correct} correct!")
+        if (self.accuracy == 1.00):
+            print("That's an accuracy of 100%, Great Job!")
+        else:
+            print(f"That's an accuracy of {self.accuracy:.2f}%, Great Job!")
