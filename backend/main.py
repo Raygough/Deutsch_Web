@@ -2,6 +2,7 @@ import time
 import random
 from datetime import datetime
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from services.vocab import Word
 from quiz import valid_rounds
@@ -11,6 +12,14 @@ from quiz import valid_rounds
 Promgram Driver
 '''
 app = FastAPI()
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/word")
 def get_word(category: str):
