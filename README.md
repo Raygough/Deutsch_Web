@@ -1,4 +1,4 @@
-# 🇩🇪 Deutsch CLI
+# 🇩🇪 Deutsch Web
 ### A German Learning Tool for the Command Line
 ---
 After a year of German, I still struggle with nouns, verbs, and adjectives. Don't even get me started on the many forms of 'the' in German...
