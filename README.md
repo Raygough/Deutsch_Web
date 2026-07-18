@@ -13,6 +13,6 @@ Right now this is a command line tool, but I'm working on bringing it to the web
 - FastAPI
 
 *to start using:*
-`git clone git@github.com:Raygough/Deutsch_CLI.git`
+`git clone git@github.com:Raygough/Deutsch_Web.git`
 
 
