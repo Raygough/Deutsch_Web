@@ -6,12 +6,15 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from services.vocab import Word
 from quiz import valid_rounds
+from pydantic import BaseModel
+from database import init_db, save_session
 
 
 '''
 Promgram Driver
 '''
 app = FastAPI()
+init_db()
 
 
 app.add_middleware(
@@ -26,33 +29,21 @@ def get_word(category: str):
     word = Word(category)
     return word.make_word()
 
-# def Main():
-#     parser = argparse.ArgumentParser()
-#     parser.add_argument("-c", "--category", type=str, help="category of word",
-#                         choices=["nouns", "verbs", "adjectives"], required=True)
-    
-#     parser.add_argument("-r", "--rounds", type=valid_rounds, help="number of questions", required=True)
-#     args = parser.parse_args()
+class SessionData(BaseModel):
+    num_questions: int
+    category: str
+    session_length: int
+    session_date_time: str
+    num_correct: int
+    session_accuracy: float
 
-#     user_cat = args.category
-#     user_rounds = args.rounds
-    
-#     quiz = Quiz()
-#     print("You can press \"x\" at any point to exit the session\n")
+@app.post("/session")
+def session_summary(data: SessionData):
+    save_session(data.num_questions, 
+    data.category,
+    data.session_length,
+    data.session_date_time,
+    data.num_correct,
+    data.session_accuracy)
 
-#     start = time.time()
-#     for i in range(user_rounds):
-#         word = Word(input=user_cat)
-#         word.make_word()
-#         if not quiz.test(word.word, word.meaning):
-#             break
-#     end = time.time()
-    
-#     rounds_done = user_rounds if user_rounds == quiz.num_rounds else quiz.num_rounds
-#     session = Session(n_questions=rounds_done, category= user_cat,
-#                       session_length= (end - start), session_occurance=datetime.now(),
-#                        correct= quiz.correct)
-#     session.save()
-#     session.summary()
-
-# Main()
+    return "Session Saved Sucessfully"

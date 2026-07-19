@@ -16,8 +16,6 @@ def valid_rounds(value) -> str:
     return value
 
 
-        
-
 class Quiz():
     def __init__(self):
         self.correct = 0

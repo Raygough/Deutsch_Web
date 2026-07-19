@@ -1,9 +1,11 @@
-import random, json
+import random, json, os
 
 def load_vocab() -> dict:
-        with open("vocab.json", "r") as file:
-            data = json.load(file)
-        return data
+    base_dir = os.path.dirname(__file__)
+    vocab_path = os.path.join(base_dir, '..', "vocab.json")
+    with open(vocab_path, "r") as file:
+        data = json.load(file)
+    return data
 
 data = load_vocab()
 
