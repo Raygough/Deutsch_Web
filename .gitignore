@@ -2,6 +2,9 @@
 !vocab.json
 !package-lock.json
 !package.json
+!tsconfig.app.json
+!tsconfig.node.json
+!tsconfig.json
 venv/
 __pycache__
 *.pyc
