@@ -8,7 +8,7 @@ function PracticePage() {
   const [sessionActive, setSessionActive] = useState(false)
   const [category, setCategory] = useState("")
   const [rounds, setRounds] = useState(1)
-  const [word, setWord] = useState(null)
+  const [word, setWord] = useState<{word: string, meaning: string, gender: string | null, category: string} | null>(null)
   
   const startTime = new Date()
 
@@ -117,7 +117,7 @@ function SessionScreen ({word, setWord, rounds, category, startTime} :
 
       async function store_session(){
         const endTime = new Date()
-        const session_length = Math.floor((endTime - startTime) / 1000)
+        const session_length = Math.floor((endTime.getTime() - startTime.getTime()) / 1000)
         const accuracy = numCorrect / rounds
 
         const data = {num_questions: rounds,
@@ -129,16 +129,23 @@ function SessionScreen ({word, setWord, rounds, category, startTime} :
         const session_data = JSON.stringify(data)
 
       
-      const request = await fetch(`${API_URL}/session`,
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: session_data
+        const request = await fetch(`${API_URL}/session`,
+          {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: session_data
+          }
+        )
+
+        if(request.ok){
+          console.log("Session saved sucessfully")
+        } else {
+          console.log("Session logging failed")
         }
-      )
-    }
+      }
+
 
       let feedback = null
       if(valid == "idle"){
@@ -164,7 +171,7 @@ function SessionScreen ({word, setWord, rounds, category, startTime} :
         <div className="m-20 p-5 border-gray-500">
           <h1 className="font-serif text-xl text-black mb-3">Session Over!</h1>
           <p className='mb-2'>That was a great session, Ray!</p>
-          <p className='mb-5'>It took you {Math.floor((endTime - startTime) / 1000)} seconds to answer {numCorrect} questions correctly out of {rounds} questions. You had an accuracy of {((numCorrect / rounds)* 100).toFixed(2) }%</p>
+          <p className='mb-5'>It took you {Math.floor((endTime.getTime() - startTime.getTime()) / 1000)} seconds to answer {numCorrect} questions correctly out of {rounds} questions. You had an accuracy of {((numCorrect / rounds)* 100).toFixed(2) }%</p>
           <Link to="/" className="text-xl text-gray-500 hover:text-[#3B5B8C]">← Home</Link>
         </div>
       }
