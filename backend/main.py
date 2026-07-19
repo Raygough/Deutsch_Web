@@ -19,7 +19,7 @@ init_db()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "https://deutsch-fa0yld6sm-raymond-goughs-projects.vercel.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 )

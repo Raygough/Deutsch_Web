@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './PracticePage.css'
 
+const API_URL = "https://deutsch-web.onrender.com"
+
 function PracticePage() {
   const [sessionActive, setSessionActive] = useState(false)
   const [category, setCategory] = useState("")
@@ -14,7 +16,7 @@ function PracticePage() {
     if(category == '' || rounds < 1){
       return false
     }
-    const response = await fetch(`http://localhost:8000/word?category=${category}`)
+    const response = await fetch(`${API_URL}/word?category=${category}`)
     const data = await response.json()
     setWord(data)
     setSessionActive(true)
@@ -101,7 +103,7 @@ function SessionScreen ({word, setWord, rounds, category, startTime} :
 
       async function handleNext() {
         if(remaningRounds > 1){
-          const response = await fetch(`http://localhost:8000/word?category=${category}`)
+          const response = await fetch(`${API_URL}/word?category=${category}`)
           const data = await response.json()
           setWord(data)
           setRemaningRounds(remaningRounds - 1)
@@ -127,7 +129,7 @@ function SessionScreen ({word, setWord, rounds, category, startTime} :
         const session_data = JSON.stringify(data)
 
       
-      const request = await fetch("http://localhost:8000/session",
+      const request = await fetch(`${API_URL}/session`,
         {
           method: 'POST',
           headers: {
