@@ -1,0 +1,1514 @@
+{
+    "nouns": {
+        "masc": [
+            {
+                "word": "Der Hund",
+                "meaning": "The Dog"
+            },
+            {
+                "word": "Der Mann",
+                "meaning": "The Man"
+            },
+            {
+                "word": "Der Apfel",
+                "meaning": "The Apple"
+            },
+            {
+                "word": "Der Tisch",
+                "meaning": "The Table"
+            },
+            {
+                "word": "Der Stuhl",
+                "meaning": "The Chair"
+            },
+            {
+                "word": "Der Baum",
+                "meaning": "The Tree"
+            },
+            {
+                "word": "Der Zug",
+                "meaning": "The Train"
+            },
+            {
+                "word": "Der Arzt",
+                "meaning": "The Doctor"
+            },
+            {
+                "word": "Der Brief",
+                "meaning": "The Letter"
+            },
+            {
+                "word": "Der Schlüssel",
+                "meaning": "The Key"
+            },
+            {
+                "word": "Der Markt",
+                "meaning": "The Market"
+            },
+            {
+                "word": "Der Freund",
+                "meaning": "The Friend (male)"
+            },
+            {
+                "word": "Der Wein",
+                "meaning": "The Wine"
+            },
+            {
+                "word": "Der Flughafen",
+                "meaning": "The Airport"
+            },
+            {
+                "word": "Der Regen",
+                "meaning": "The Rain"
+            },
+            {
+                "word": "Der Vater",
+                "meaning": "The Father"
+            },
+            {
+                "word": "Der Bruder",
+                "meaning": "The Brother"
+            },
+            {
+                "word": "Der Sohn",
+                "meaning": "The Son"
+            },
+            {
+                "word": "Der Lehrer",
+                "meaning": "The Teacher (male)"
+            },
+            {
+                "word": "Der Schüler",
+                "meaning": "The Student (male)"
+            },
+            {
+                "word": "Der Tag",
+                "meaning": "The Day"
+            },
+            {
+                "word": "Der Abend",
+                "meaning": "The Evening"
+            },
+            {
+                "word": "Der Morgen",
+                "meaning": "The Morning"
+            },
+            {
+                "word": "Der Winter",
+                "meaning": "The Winter"
+            },
+            {
+                "word": "Der Sommer",
+                "meaning": "The Summer"
+            },
+            {
+                "word": "Der Frühling",
+                "meaning": "The Spring"
+            },
+            {
+                "word": "Der Herbst",
+                "meaning": "The Autumn"
+            },
+            {
+                "word": "Der Monat",
+                "meaning": "The Month"
+            },
+            {
+                "word": "Der Himmel",
+                "meaning": "The Sky"
+            },
+            {
+                "word": "Der Mond",
+                "meaning": "The Moon"
+            },
+            {
+                "word": "Der Berg",
+                "meaning": "The Mountain"
+            },
+            {
+                "word": "Der Fluss",
+                "meaning": "The River"
+            },
+            {
+                "word": "Der See",
+                "meaning": "The Lake"
+            },
+            {
+                "word": "Der Wald",
+                "meaning": "The Forest"
+            },
+            {
+                "word": "Der Garten",
+                "meaning": "The Garden"
+            },
+            {
+                "word": "Der Park",
+                "meaning": "The Park"
+            },
+            {
+                "word": "Der Weg",
+                "meaning": "The Path / Way"
+            },
+            {
+                "word": "Der Platz",
+                "meaning": "The Square / Place"
+            },
+            {
+                "word": "Der Bahnhof",
+                "meaning": "The Train Station"
+            },
+            {
+                "word": "Der Supermarkt",
+                "meaning": "The Supermarket"
+            },
+            {
+                "word": "Der Laden",
+                "meaning": "The Shop"
+            },
+            {
+                "word": "Der Preis",
+                "meaning": "The Price"
+            },
+            {
+                "word": "Der Job",
+                "meaning": "The Job"
+            },
+            {
+                "word": "Der Beruf",
+                "meaning": "The Profession"
+            },
+            {
+                "word": "Der Chef",
+                "meaning": "The Boss"
+            },
+            {
+                "word": "Der Kollege",
+                "meaning": "The Colleague"
+            },
+            {
+                "word": "Der Computer",
+                "meaning": "The Computer"
+            },
+            {
+                "word": "Der Fernseher",
+                "meaning": "The Television"
+            },
+            {
+                "word": "Der Kühlschrank",
+                "meaning": "The Refrigerator"
+            },
+            {
+                "word": "Der Löffel",
+                "meaning": "The Spoon"
+            },
+            {
+                "word": "Der Teller",
+                "meaning": "The Plate"
+            },
+            {
+                "word": "Der Kaffee",
+                "meaning": "The Coffee"
+            },
+            {
+                "word": "Der Tee",
+                "meaning": "The Tea"
+            },
+            {
+                "word": "Der Zucker",
+                "meaning": "The Sugar"
+            },
+            {
+                "word": "Der Käse",
+                "meaning": "The Cheese"
+            },
+            {
+                "word": "Der Fisch",
+                "meaning": "The Fish"
+            },
+            {
+                "word": "Der Reis",
+                "meaning": "The Rice"
+            },
+            {
+                "word": "Der Kuchen",
+                "meaning": "The Cake"
+            },
+            {
+                "word": "Der Urlaub",
+                "meaning": "The Vacation"
+            },
+            {
+                "word": "Der Koffer",
+                "meaning": "The Suitcase"
+            },
+            {
+                "word": "Der Pass",
+                "meaning": "The Passport"
+            },
+            {
+                "word": "Der Ausflug",
+                "meaning": "The Trip / Excursion"
+            }
+        ],
+        "fem": [
+            {
+                "word": "Die Mutter",
+                "meaning": "The Mother"
+            },
+            {
+                "word": "Die Frau",
+                "meaning": "The Woman"
+            },
+            {
+                "word": "Die Musik",
+                "meaning": "The Music"
+            },
+            {
+                "word": "Die Schule",
+                "meaning": "The School"
+            },
+            {
+                "word": "Die Stadt",
+                "meaning": "The City"
+            },
+            {
+                "word": "Die Küche",
+                "meaning": "The Kitchen"
+            },
+            {
+                "word": "Die Zeitung",
+                "meaning": "The Newspaper"
+            },
+            {
+                "word": "Die Straße",
+                "meaning": "The Street"
+            },
+            {
+                "word": "Die Uhr",
+                "meaning": "The Clock / Watch"
+            },
+            {
+                "word": "Die Tasche",
+                "meaning": "The Bag"
+            },
+            {
+                "word": "Die Freundin",
+                "meaning": "The Friend (female)"
+            },
+            {
+                "word": "Die Sprache",
+                "meaning": "The Language"
+            },
+            {
+                "word": "Die Arbeit",
+                "meaning": "The Work"
+            },
+            {
+                "word": "Die Nacht",
+                "meaning": "The Night"
+            },
+            {
+                "word": "Die Flasche",
+                "meaning": "The Bottle"
+            },
+            {
+                "word": "Die Schwester",
+                "meaning": "The Sister"
+            },
+            {
+                "word": "Die Tochter",
+                "meaning": "The Daughter"
+            },
+            {
+                "word": "Die Lehrerin",
+                "meaning": "The Teacher (female)"
+            },
+            {
+                "word": "Die Schülerin",
+                "meaning": "The Student (female)"
+            },
+            {
+                "word": "Die Familie",
+                "meaning": "The Family"
+            },
+            {
+                "word": "Die Woche",
+                "meaning": "The Week"
+            },
+            {
+                "word": "Die Zeit",
+                "meaning": "The Time"
+            },
+            {
+                "word": "Die Stunde",
+                "meaning": "The Hour"
+            },
+            {
+                "word": "Die Minute",
+                "meaning": "The Minute"
+            },
+            {
+                "word": "Die Sonne",
+                "meaning": "The Sun"
+            },
+            {
+                "word": "Die Wolke",
+                "meaning": "The Cloud"
+            },
+            {
+                "word": "Die Blume",
+                "meaning": "The Flower"
+            },
+            {
+                "word": "Die Pflanze",
+                "meaning": "The Plant"
+            },
+            {
+                "word": "Die Insel",
+                "meaning": "The Island"
+            },
+            {
+                "word": "Die Brücke",
+                "meaning": "The Bridge"
+            },
+            {
+                "word": "Die Kirche",
+                "meaning": "The Church"
+            },
+            {
+                "word": "Die Bibliothek",
+                "meaning": "The Library"
+            },
+            {
+                "word": "Die Universität",
+                "meaning": "The University"
+            },
+            {
+                "word": "Die Prüfung",
+                "meaning": "The Exam"
+            },
+            {
+                "word": "Die Antwort",
+                "meaning": "The Answer"
+            },
+            {
+                "word": "Die Frage",
+                "meaning": "The Question"
+            },
+            {
+                "word": "Die Idee",
+                "meaning": "The Idea"
+            },
+            {
+                "word": "Die Geschichte",
+                "meaning": "The Story / History"
+            },
+            {
+                "word": "Die Wohnung",
+                "meaning": "The Apartment"
+            },
+            {
+                "word": "Die Tür",
+                "meaning": "The Door"
+            },
+            {
+                "word": "Die Wand",
+                "meaning": "The Wall"
+            },
+            {
+                "word": "Die Lampe",
+                "meaning": "The Lamp"
+            },
+            {
+                "word": "Die Gabel",
+                "meaning": "The Fork"
+            },
+            {
+                "word": "Die Milch",
+                "meaning": "The Milk"
+            },
+            {
+                "word": "Die Butter",
+                "meaning": "The Butter"
+            },
+            {
+                "word": "Die Suppe",
+                "meaning": "The Soup"
+            },
+            {
+                "word": "Die Wurst",
+                "meaning": "The Sausage"
+            },
+            {
+                "word": "Die Kartoffel",
+                "meaning": "The Potato"
+            },
+            {
+                "word": "Die Tomate",
+                "meaning": "The Tomato"
+            },
+            {
+                "word": "Die Banane",
+                "meaning": "The Banana"
+            },
+            {
+                "word": "Die Reise",
+                "meaning": "The Journey / Trip"
+            },
+            {
+                "word": "Die Karte",
+                "meaning": "The Card / Map"
+            },
+            {
+                "word": "Die Rechnung",
+                "meaning": "The Bill / Invoice"
+            },
+            {
+                "word": "Die Bank",
+                "meaning": "The Bank"
+            },
+            {
+                "word": "Die Post",
+                "meaning": "The Post Office"
+            },
+            {
+                "word": "Die Polizei",
+                "meaning": "The Police"
+            },
+            {
+                "word": "Die Gesundheit",
+                "meaning": "The Health"
+            },
+            {
+                "word": "Die Krankheit",
+                "meaning": "The Illness"
+            },
+            {
+                "word": "Die Medizin",
+                "meaning": "The Medicine"
+            },
+            {
+                "word": "Die Liebe",
+                "meaning": "The Love"
+            },
+            {
+                "word": "Die Freiheit",
+                "meaning": "The Freedom"
+            }
+        ],
+        "neut": [
+            {
+                "word": "Das Haus",
+                "meaning": "The House"
+            },
+            {
+                "word": "Das Kind",
+                "meaning": "The Child"
+            },
+            {
+                "word": "Das Museum",
+                "meaning": "The Museum"
+            },
+            {
+                "word": "Das Buch",
+                "meaning": "The Book"
+            },
+            {
+                "word": "Das Auto",
+                "meaning": "The Car"
+            },
+            {
+                "word": "Das Fenster",
+                "meaning": "The Window"
+            },
+            {
+                "word": "Das Wasser",
+                "meaning": "The Water"
+            },
+            {
+                "word": "Das Bett",
+                "meaning": "The Bed"
+            },
+            {
+                "word": "Das Geld",
+                "meaning": "The Money"
+            },
+            {
+                "word": "Das Handy",
+                "meaning": "The Cell Phone"
+            },
+            {
+                "word": "Das Restaurant",
+                "meaning": "The Restaurant"
+            },
+            {
+                "word": "Das Jahr",
+                "meaning": "The Year"
+            },
+            {
+                "word": "Das Land",
+                "meaning": "The Country"
+            },
+            {
+                "word": "Das Wetter",
+                "meaning": "The Weather"
+            },
+            {
+                "word": "Das Fahrrad",
+                "meaning": "The Bicycle"
+            },
+            {
+                "word": "Das Mädchen",
+                "meaning": "The Girl"
+            },
+            {
+                "word": "Das Baby",
+                "meaning": "The Baby"
+            },
+            {
+                "word": "Das Zimmer",
+                "meaning": "The Room"
+            },
+            {
+                "word": "Das Bad",
+                "meaning": "The Bathroom"
+            },
+            {
+                "word": "Das Büro",
+                "meaning": "The Office"
+            },
+            {
+                "word": "Das Hotel",
+                "meaning": "The Hotel"
+            },
+            {
+                "word": "Das Geschäft",
+                "meaning": "The Store / Business"
+            },
+            {
+                "word": "Das Geschenk",
+                "meaning": "The Gift"
+            },
+            {
+                "word": "Das Foto",
+                "meaning": "The Photo"
+            },
+            {
+                "word": "Das Bild",
+                "meaning": "The Picture"
+            },
+            {
+                "word": "Das Papier",
+                "meaning": "The Paper"
+            },
+            {
+                "word": "Das Problem",
+                "meaning": "The Problem"
+            },
+            {
+                "word": "Das Beispiel",
+                "meaning": "The Example"
+            },
+            {
+                "word": "Das Ergebnis",
+                "meaning": "The Result"
+            },
+            {
+                "word": "Das Ziel",
+                "meaning": "The Goal"
+            },
+            {
+                "word": "Das Spiel",
+                "meaning": "The Game"
+            },
+            {
+                "word": "Das Team",
+                "meaning": "The Team"
+            },
+            {
+                "word": "Das Konzert",
+                "meaning": "The Concert"
+            },
+            {
+                "word": "Das Theater",
+                "meaning": "The Theater"
+            },
+            {
+                "word": "Das Kino",
+                "meaning": "The Cinema"
+            },
+            {
+                "word": "Das Ticket",
+                "meaning": "The Ticket"
+            },
+            {
+                "word": "Das Frühstück",
+                "meaning": "The Breakfast"
+            },
+            {
+                "word": "Das Mittagessen",
+                "meaning": "The Lunch"
+            },
+            {
+                "word": "Das Abendessen",
+                "meaning": "The Dinner"
+            },
+            {
+                "word": "Das Brot",
+                "meaning": "The Bread"
+            },
+            {
+                "word": "Das Ei",
+                "meaning": "The Egg"
+            },
+            {
+                "word": "Das Obst",
+                "meaning": "The Fruit"
+            },
+            {
+                "word": "Das Gemüse",
+                "meaning": "The Vegetable"
+            },
+            {
+                "word": "Das Fleisch",
+                "meaning": "The Meat"
+            },
+            {
+                "word": "Das Salz",
+                "meaning": "The Salt"
+            },
+            {
+                "word": "Das Öl",
+                "meaning": "The Oil"
+            },
+            {
+                "word": "Das Glas",
+                "meaning": "The Glass"
+            },
+            {
+                "word": "Das Messer",
+                "meaning": "The Knife"
+            },
+            {
+                "word": "Das Handtuch",
+                "meaning": "The Towel"
+            },
+            {
+                "word": "Das Shampoo",
+                "meaning": "The Shampoo"
+            },
+            {
+                "word": "Das Krankenhaus",
+                "meaning": "The Hospital"
+            },
+            {
+                "word": "Das Rezept",
+                "meaning": "The Recipe / Prescription"
+            },
+            {
+                "word": "Das Fieber",
+                "meaning": "The Fever"
+            },
+            {
+                "word": "Das Klima",
+                "meaning": "The Climate"
+            },
+            {
+                "word": "Das Licht",
+                "meaning": "The Light"
+            },
+            {
+                "word": "Das Feuer",
+                "meaning": "The Fire"
+            },
+            {
+                "word": "Das Meer",
+                "meaning": "The Sea"
+            },
+            {
+                "word": "Das Tal",
+                "meaning": "The Valley"
+            },
+            {
+                "word": "Das Dorf",
+                "meaning": "The Village"
+            },
+            {
+                "word": "Das Flugzeug",
+                "meaning": "The Airplane"
+            },
+            {
+                "word": "Das Schiff",
+                "meaning": "The Ship"
+            }
+        ]
+    },
+    "verbs": [
+        {
+            "word": "essen",
+            "meaning": "to eat"
+        },
+        {
+            "word": "trinken",
+            "meaning": "to drink"
+        },
+        {
+            "word": "gehen",
+            "meaning": "to go"
+        },
+        {
+            "word": "kommen",
+            "meaning": "to come"
+        },
+        {
+            "word": "sehen",
+            "meaning": "to see"
+        },
+        {
+            "word": "hören",
+            "meaning": "to hear"
+        },
+        {
+            "word": "sprechen",
+            "meaning": "to speak"
+        },
+        {
+            "word": "lesen",
+            "meaning": "to read"
+        },
+        {
+            "word": "schreiben",
+            "meaning": "to write"
+        },
+        {
+            "word": "kaufen",
+            "meaning": "to buy"
+        },
+        {
+            "word": "arbeiten",
+            "meaning": "to work"
+        },
+        {
+            "word": "schlafen",
+            "meaning": "to sleep"
+        },
+        {
+            "word": "fahren",
+            "meaning": "to drive"
+        },
+        {
+            "word": "laufen",
+            "meaning": "to run"
+        },
+        {
+            "word": "kochen",
+            "meaning": "to cook"
+        },
+        {
+            "word": "lernen",
+            "meaning": "to learn"
+        },
+        {
+            "word": "wohnen",
+            "meaning": "to live / reside"
+        },
+        {
+            "word": "fragen",
+            "meaning": "to ask"
+        },
+        {
+            "word": "antworten",
+            "meaning": "to answer"
+        },
+        {
+            "word": "öffnen",
+            "meaning": "to open"
+        },
+        {
+            "word": "schließen",
+            "meaning": "to close"
+        },
+        {
+            "word": "spielen",
+            "meaning": "to play"
+        },
+        {
+            "word": "machen",
+            "meaning": "to do / make"
+        },
+        {
+            "word": "geben",
+            "meaning": "to give"
+        },
+        {
+            "word": "nehmen",
+            "meaning": "to take"
+        },
+        {
+            "word": "finden",
+            "meaning": "to find"
+        },
+        {
+            "word": "suchen",
+            "meaning": "to search"
+        },
+        {
+            "word": "bringen",
+            "meaning": "to bring"
+        },
+        {
+            "word": "holen",
+            "meaning": "to fetch / get"
+        },
+        {
+            "word": "brauchen",
+            "meaning": "to need"
+        },
+        {
+            "word": "wollen",
+            "meaning": "to want"
+        },
+        {
+            "word": "können",
+            "meaning": "to be able to / can"
+        },
+        {
+            "word": "müssen",
+            "meaning": "to have to / must"
+        },
+        {
+            "word": "dürfen",
+            "meaning": "to be allowed to"
+        },
+        {
+            "word": "sollen",
+            "meaning": "to be supposed to"
+        },
+        {
+            "word": "mögen",
+            "meaning": "to like"
+        },
+        {
+            "word": "lieben",
+            "meaning": "to love"
+        },
+        {
+            "word": "hassen",
+            "meaning": "to hate"
+        },
+        {
+            "word": "glauben",
+            "meaning": "to believe"
+        },
+        {
+            "word": "denken",
+            "meaning": "to think"
+        },
+        {
+            "word": "wissen",
+            "meaning": "to know (facts)"
+        },
+        {
+            "word": "kennen",
+            "meaning": "to know (people/places)"
+        },
+        {
+            "word": "verstehen",
+            "meaning": "to understand"
+        },
+        {
+            "word": "erklären",
+            "meaning": "to explain"
+        },
+        {
+            "word": "zeigen",
+            "meaning": "to show"
+        },
+        {
+            "word": "helfen",
+            "meaning": "to help"
+        },
+        {
+            "word": "beginnen",
+            "meaning": "to begin"
+        },
+        {
+            "word": "enden",
+            "meaning": "to end"
+        },
+        {
+            "word": "bleiben",
+            "meaning": "to stay"
+        },
+        {
+            "word": "warten",
+            "meaning": "to wait"
+        },
+        {
+            "word": "treffen",
+            "meaning": "to meet"
+        },
+        {
+            "word": "besuchen",
+            "meaning": "to visit"
+        },
+        {
+            "word": "reisen",
+            "meaning": "to travel"
+        },
+        {
+            "word": "fliegen",
+            "meaning": "to fly"
+        },
+        {
+            "word": "ankommen",
+            "meaning": "to arrive"
+        },
+        {
+            "word": "verlassen",
+            "meaning": "to leave"
+        },
+        {
+            "word": "stehen",
+            "meaning": "to stand"
+        },
+        {
+            "word": "sitzen",
+            "meaning": "to sit"
+        },
+        {
+            "word": "liegen",
+            "meaning": "to lie / be located"
+        },
+        {
+            "word": "fallen",
+            "meaning": "to fall"
+        },
+        {
+            "word": "steigen",
+            "meaning": "to climb / rise"
+        },
+        {
+            "word": "tragen",
+            "meaning": "to carry / wear"
+        },
+        {
+            "word": "ziehen",
+            "meaning": "to pull"
+        },
+        {
+            "word": "drücken",
+            "meaning": "to push / press"
+        },
+        {
+            "word": "werfen",
+            "meaning": "to throw"
+        },
+        {
+            "word": "fangen",
+            "meaning": "to catch"
+        },
+        {
+            "word": "bauen",
+            "meaning": "to build"
+        },
+        {
+            "word": "zerstören",
+            "meaning": "to destroy"
+        },
+        {
+            "word": "reparieren",
+            "meaning": "to repair"
+        },
+        {
+            "word": "putzen",
+            "meaning": "to clean"
+        },
+        {
+            "word": "waschen",
+            "meaning": "to wash"
+        },
+        {
+            "word": "duschen",
+            "meaning": "to shower"
+        },
+        {
+            "word": "anziehen",
+            "meaning": "to put on / dress"
+        },
+        {
+            "word": "ausziehen",
+            "meaning": "to take off / undress"
+        },
+        {
+            "word": "aufstehen",
+            "meaning": "to get up"
+        },
+        {
+            "word": "hinsetzen",
+            "meaning": "to sit down"
+        },
+        {
+            "word": "verkaufen",
+            "meaning": "to sell"
+        },
+        {
+            "word": "bezahlen",
+            "meaning": "to pay"
+        },
+        {
+            "word": "kosten",
+            "meaning": "to cost"
+        },
+        {
+            "word": "sparen",
+            "meaning": "to save"
+        },
+        {
+            "word": "verdienen",
+            "meaning": "to earn"
+        },
+        {
+            "word": "planen",
+            "meaning": "to plan"
+        },
+        {
+            "word": "entscheiden",
+            "meaning": "to decide"
+        },
+        {
+            "word": "versuchen",
+            "meaning": "to try"
+        },
+        {
+            "word": "gewinnen",
+            "meaning": "to win"
+        },
+        {
+            "word": "verlieren",
+            "meaning": "to lose"
+        },
+        {
+            "word": "tanzen",
+            "meaning": "to dance"
+        },
+        {
+            "word": "singen",
+            "meaning": "to sing"
+        },
+        {
+            "word": "lachen",
+            "meaning": "to laugh"
+        },
+        {
+            "word": "weinen",
+            "meaning": "to cry"
+        },
+        {
+            "word": "lächeln",
+            "meaning": "to smile"
+        },
+        {
+            "word": "erinnern",
+            "meaning": "to remember"
+        },
+        {
+            "word": "vergessen",
+            "meaning": "to forget"
+        },
+        {
+            "word": "träumen",
+            "meaning": "to dream"
+        },
+        {
+            "word": "fühlen",
+            "meaning": "to feel"
+        },
+        {
+            "word": "heiraten",
+            "meaning": "to marry"
+        },
+        {
+            "word": "leben",
+            "meaning": "to live / be alive"
+        },
+        {
+            "word": "sterben",
+            "meaning": "to die"
+        },
+        {
+            "word": "wachsen",
+            "meaning": "to grow"
+        }
+    ],
+    "adjectives": [
+        {
+            "word": "groß",
+            "meaning": "big / tall"
+        },
+        {
+            "word": "klein",
+            "meaning": "small / short"
+        },
+        {
+            "word": "schnell",
+            "meaning": "fast"
+        },
+        {
+            "word": "langsam",
+            "meaning": "slow"
+        },
+        {
+            "word": "neu",
+            "meaning": "new"
+        },
+        {
+            "word": "alt",
+            "meaning": "old"
+        },
+        {
+            "word": "gut",
+            "meaning": "good"
+        },
+        {
+            "word": "schlecht",
+            "meaning": "bad"
+        },
+        {
+            "word": "warm",
+            "meaning": "warm"
+        },
+        {
+            "word": "kalt",
+            "meaning": "cold"
+        },
+        {
+            "word": "schön",
+            "meaning": "beautiful"
+        },
+        {
+            "word": "hässlich",
+            "meaning": "ugly"
+        },
+        {
+            "word": "teuer",
+            "meaning": "expensive"
+        },
+        {
+            "word": "billig",
+            "meaning": "cheap"
+        },
+        {
+            "word": "stark",
+            "meaning": "strong"
+        },
+        {
+            "word": "schwach",
+            "meaning": "weak"
+        },
+        {
+            "word": "laut",
+            "meaning": "loud"
+        },
+        {
+            "word": "leise",
+            "meaning": "quiet"
+        },
+        {
+            "word": "schwer",
+            "meaning": "heavy / difficult"
+        },
+        {
+            "word": "leicht",
+            "meaning": "light / easy"
+        },
+        {
+            "word": "hoch",
+            "meaning": "high / tall"
+        },
+        {
+            "word": "niedrig",
+            "meaning": "low"
+        },
+        {
+            "word": "breit",
+            "meaning": "wide"
+        },
+        {
+            "word": "schmal",
+            "meaning": "narrow"
+        },
+        {
+            "word": "lang",
+            "meaning": "long"
+        },
+        {
+            "word": "kurz",
+            "meaning": "short"
+        },
+        {
+            "word": "voll",
+            "meaning": "full"
+        },
+        {
+            "word": "leer",
+            "meaning": "empty"
+        },
+        {
+            "word": "sauber",
+            "meaning": "clean"
+        },
+        {
+            "word": "schmutzig",
+            "meaning": "dirty"
+        },
+        {
+            "word": "hell",
+            "meaning": "bright"
+        },
+        {
+            "word": "dunkel",
+            "meaning": "dark"
+        },
+        {
+            "word": "glücklich",
+            "meaning": "happy"
+        },
+        {
+            "word": "traurig",
+            "meaning": "sad"
+        },
+        {
+            "word": "müde",
+            "meaning": "tired"
+        },
+        {
+            "word": "wach",
+            "meaning": "awake"
+        },
+        {
+            "word": "hungrig",
+            "meaning": "hungry"
+        },
+        {
+            "word": "durstig",
+            "meaning": "thirsty"
+        },
+        {
+            "word": "krank",
+            "meaning": "sick"
+        },
+        {
+            "word": "gesund",
+            "meaning": "healthy"
+        },
+        {
+            "word": "richtig",
+            "meaning": "correct"
+        },
+        {
+            "word": "falsch",
+            "meaning": "wrong"
+        },
+        {
+            "word": "einfach",
+            "meaning": "simple"
+        },
+        {
+            "word": "kompliziert",
+            "meaning": "complicated"
+        },
+        {
+            "word": "wichtig",
+            "meaning": "important"
+        },
+        {
+            "word": "unwichtig",
+            "meaning": "unimportant"
+        },
+        {
+            "word": "interessant",
+            "meaning": "interesting"
+        },
+        {
+            "word": "langweilig",
+            "meaning": "boring"
+        },
+        {
+            "word": "freundlich",
+            "meaning": "friendly"
+        },
+        {
+            "word": "unfreundlich",
+            "meaning": "unfriendly"
+        },
+        {
+            "word": "höflich",
+            "meaning": "polite"
+        },
+        {
+            "word": "nett",
+            "meaning": "nice"
+        },
+        {
+            "word": "dumm",
+            "meaning": "stupid"
+        },
+        {
+            "word": "klug",
+            "meaning": "smart"
+        },
+        {
+            "word": "mutig",
+            "meaning": "brave"
+        },
+        {
+            "word": "ängstlich",
+            "meaning": "fearful"
+        },
+        {
+            "word": "ruhig",
+            "meaning": "calm"
+        },
+        {
+            "word": "nervös",
+            "meaning": "nervous"
+        },
+        {
+            "word": "frei",
+            "meaning": "free"
+        },
+        {
+            "word": "beschäftigt",
+            "meaning": "busy"
+        },
+        {
+            "word": "fertig",
+            "meaning": "finished / ready"
+        },
+        {
+            "word": "bereit",
+            "meaning": "ready"
+        },
+        {
+            "word": "früh",
+            "meaning": "early"
+        },
+        {
+            "word": "spät",
+            "meaning": "late"
+        },
+        {
+            "word": "nah",
+            "meaning": "near"
+        },
+        {
+            "word": "fern",
+            "meaning": "far"
+        },
+        {
+            "word": "jung",
+            "meaning": "young"
+        },
+        {
+            "word": "reich",
+            "meaning": "rich"
+        },
+        {
+            "word": "arm",
+            "meaning": "poor"
+        },
+        {
+            "word": "süß",
+            "meaning": "sweet"
+        },
+        {
+            "word": "sauer",
+            "meaning": "sour"
+        },
+        {
+            "word": "bitter",
+            "meaning": "bitter"
+        },
+        {
+            "word": "salzig",
+            "meaning": "salty"
+        },
+        {
+            "word": "scharf",
+            "meaning": "spicy / sharp"
+        },
+        {
+            "word": "frisch",
+            "meaning": "fresh"
+        },
+        {
+            "word": "trocken",
+            "meaning": "dry"
+        },
+        {
+            "word": "nass",
+            "meaning": "wet"
+        },
+        {
+            "word": "weich",
+            "meaning": "soft"
+        },
+        {
+            "word": "hart",
+            "meaning": "hard"
+        },
+        {
+            "word": "rund",
+            "meaning": "round"
+        },
+        {
+            "word": "flach",
+            "meaning": "flat"
+        },
+        {
+            "word": "bequem",
+            "meaning": "comfortable"
+        },
+        {
+            "word": "unbequem",
+            "meaning": "uncomfortable"
+        },
+        {
+            "word": "modern",
+            "meaning": "modern"
+        },
+        {
+            "word": "altmodisch",
+            "meaning": "old-fashioned"
+        },
+        {
+            "word": "bunt",
+            "meaning": "colorful"
+        },
+        {
+            "word": "dünn",
+            "meaning": "thin"
+        },
+        {
+            "word": "dick",
+            "meaning": "thick / fat"
+        },
+        {
+            "word": "sicher",
+            "meaning": "safe / certain"
+        },
+        {
+            "word": "gefährlich",
+            "meaning": "dangerous"
+        },
+        {
+            "word": "normal",
+            "meaning": "normal"
+        },
+        {
+            "word": "seltsam",
+            "meaning": "strange"
+        }
+    ]
+}
