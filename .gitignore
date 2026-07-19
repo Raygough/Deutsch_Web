@@ -1,5 +1,7 @@
 *.json
 !vocab.json
+!package-lock.json
+!package.json
 venv/
 __pycache__
 *.pyc
